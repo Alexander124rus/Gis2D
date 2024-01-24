@@ -1,0 +1,29 @@
+﻿.owl-carousel-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.owl-carousel .item {
+    height: 15rem;
+    background: #000;
+    cursor: pointer;
+}
+
+/*.popup {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 10;
+    opacity: 0;
+}*/
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #2caae1;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 15px;
+    width: 15px;
+}

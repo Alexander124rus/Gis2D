@@ -1,0 +1,169 @@
+﻿@using GeoMVC7.Service
+@using Syncfusion.EJ2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Репрессированный меридиан</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css' rel='stylesheet' />
+    @*<link rel="stylesheet" href="~/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">*@
+    @*<link rel="stylesheet" href="~/GeoMVC7.styles.css" asp-append-version="true"/>*@
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    @*<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />*@
+    <!-- Add the slick-theme.css if you want default styling -->
+    @*<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link href="/lib/lightGallery-master/dist/css/lightgallery.css" rel="stylesheet">*@
+
+    <style>
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+    <!--syncfusion-->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css" />
+    @*<script src="~/js/ej2/ej2.min.js"></script>*@
+    <!--syncfusion end-->
+
+    <link rel="stylesheet" href="~/css/owlStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/geo.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/assets/css/icons.css" />
+
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark main-style-header">
+            <div class="container">
+                <a class="navbar-brand" asp-action="Index">
+                    <img src="~/image/logo/RM-white_35X35.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-action="Index">Карта</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-action="About">О проекте</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-action="Contact">Контакты</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="fixed-bottom bg-light">
+        <div class="container">
+            <p>© 2021 - 2023 КГАУК «Красноярский краевой краеведческий музей» </p>
+        </div>
+    </footer>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js'></script>
+    @*<script src="~/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>*@
+    
+    
+    @*<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>*@
+
+    @*<script type="text/javascript">
+        $(document).ready(function () {
+            $('#selector1').lightGallery();
+        });
+    </script>*@
+    
+    
+    @*<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lightgallery.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-fullscreen.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-thumbnail.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-video.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-autoplay.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-zoom.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-hash.js"></script>
+    <script src="/lib/lightGallery-master/dist/js/lg-pager.js"></script>
+    <script src="/lib/lightGallery-master/lib/jquery.mousewheel.min.js"></script>*@
+    <script src="~/js/geo.js" asp-append-version="true"></script>
+    
+    
+    @*<script type="text/javascript">
+        $('.multiple-items').slick({
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+        
+        $('#selector1').lightGallery({
+          selector: '.slick-slide:not(.slick-cloned) .lightgallery',
+        });
+    </script>
+    <script type="text/javascript">
+        $(".owl-carousel").owlCarousel({
+            loop: false,
+            dotData: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                    600: {
+                items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+        $('#selector2').lightGallery({
+            selector: '.e-rte-image'
+        });
+    </script>*@
+    
+    
+    @*<ejs-scripts></ejs-scripts>*@
+    <script src="~/js/dialogImg.js"></script>
+    @RenderSection("Scripts", required: false)
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(94110016, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/94110016" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script id="site3d-configurator-load" src="https://site3d.site/configurator/load.js" data-lang="ru"></script>
+</body>
+</html>

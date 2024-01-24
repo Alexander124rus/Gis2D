@@ -1,0 +1,95 @@
+﻿@model GeoMVC7.Domain.Entities.GeoEntitie.MyGeometry;
+@{
+}
+
+<div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette">
+        <div class="col-md-12">
+            <h2 class="text-center featurette-heading">
+                @Model.MyPage.Title
+            </h2>
+            <hr class="featurette-divider">
+            <div id="contentBlock">
+                @Html.Raw(@Model.MyPage.Description)
+            </div>
+        </div>
+
+    </div>
+
+    @*Slick-carousel and Lightgallery*@
+    @*    <div id="selector1" class="slider multiple-items">
+    <div>
+    <div class="image">
+    <a href="/image/1.jpg" class="lightgallery">
+    <img data-lazy="/image/1.jpg" />
+    </a>
+    </div>
+    </div>
+    <div>
+    <div class="image">
+    <a href="/image/2.jpg" class="lightgallery">
+    <img data-lazy="/image/2.jpg" />
+    </a>
+    </div>
+    </div>
+    <div>
+    <div class="image">
+    <a href="/image/3.jpg" class="lightgallery">
+    <img data-lazy="/image/3.jpg" />
+    </a>
+    </div>
+    </div>
+    <div>
+    <div class="image">
+    <a href="/image/4.jpg" class="lightgallery">
+    <img data-lazy="/image/4.jpg" />
+    </a>
+    </div>
+    </div>
+    </div>*@
+
+    @*OWL-carousel and Lightgallery*@
+    @*<div id="selector2" class="owl-carousel owl-theme">
+        <div class="item" data-src="/Files/lavrov/Первая Ленская экспедиция. Пароход Товарищ Сталин. Фото fleetphoto.ru.jpg">
+            <img src="/Files/lavrov/Первая Ленская экспедиция. Пароход Товарищ Сталин. Фото fleetphoto.ru.jpg" />
+        </div>
+        <div class="item" data-src="/Files/lavrov/Первая Ленская экспедиция. Пароход Товарищ Сталин. Фото fleetphoto.ru.jpg">
+            <img src="/Files/lavrov/Первая Ленская экспедиция. Пароход Товарищ Сталин. Фото fleetphoto.ru.jpg" />
+        </div>
+        
+    </div>*@
+
+    @*<div class="demo-gallery">
+    <ul id="selector1" class="owl-carousel owl-theme">
+    <li class="item" data-src="/image/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+    <a href="/image/5.jpg">
+    <img class="img-responsive" src="/image/1.jpg">
+    </a>
+    </li>
+    <li class="item" data-src="/image/2.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+    <a href="/image/5.jpg">
+    <img class="img-responsive" src="/image/2.jpg">
+    </a>
+    </li>
+    <li class="item" data-src="/image/3.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+    <a href="/image/5.jpg">
+    <img class="img-responsive" src="/image/3.jpg">
+    </a>
+    </li>
+    <li class="item" data-src="/image/4.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+    <a href="/image/5.jpg">
+    <img class="img-responsive" src="/image/4.jpg">
+    </a>
+    </li>
+    </ul>
+    </div>*@
+
+
+
+
+    <!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->

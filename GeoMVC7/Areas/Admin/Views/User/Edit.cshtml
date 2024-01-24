@@ -1,0 +1,52 @@
+﻿@model GeoMVC7.Domain.Entities.ApplicationUser
+@{
+    ViewData["Title"] = "Profile";
+    //ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+<!--app-content open-->
+<div class="main-content app-content mt-0">
+    <div class="side-app">
+        <!-- CONTAINER -->
+        <div class="main-container container-fluid">
+            <!-- PAGE-HEADER -->
+            <div class="page-header">
+                <h1 class="page-title"></h1>
+            </div>
+            <!-- PAGE-HEADER END -->
+            <!-- Row -->
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Пользователь</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-md-6">
+                            <form id="profile-form" method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                                <div class="form-floating mb-3">
+                                    <input asp-for="UserName" class="form-control" placeholder="Please choose your username." disabled />
+                                    <label asp-for="UserName" class="form-label"></label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input asp-for="PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                                    <label asp-for="PhoneNumber" class="form-label"></label>
+                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                </div>
+                                <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- CONTAINER CLOSED -->
+    </div>
+</div>
+<!--app-content closed-->
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

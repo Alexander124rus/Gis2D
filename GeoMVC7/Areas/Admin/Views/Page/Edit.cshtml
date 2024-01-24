@@ -1,0 +1,91 @@
+﻿@model GeoMVC7.Domain.Entities.GeoEntitie.MyGeometry;
+@using Syncfusion.EJ2
+@using Syncfusion.EJ2.InPlaceEditor;
+
+<!--app-content open-->
+<div class="main-content app-content mt-0">
+    <div class="side-app">
+        <!-- CONTAINER -->
+        <div class="main-container container-fluid">
+            <!-- PAGE-HEADER -->
+            <div class="page-header">
+                <h1 class="page-title">Обновление данных</h1>
+            </div>
+            <!-- PAGE-HEADER END -->
+            <!-- Row -->
+            <form asp-action="Edit">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Обновите метку</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Заголовок метки <span class="text-red">*</span></label>
+                                        <input asp-for="MyPage.Title" type="text" class="form-control" placeholder="Заголовок метки">
+                                        <span asp-validation-for="MyPage.Title" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div class="form-group">
+                                        <label class="form-label">Долгота <span class="text-red">*</span></label>
+                                        <input asp-for="CoordinatesLng" type="text" class="form-control" placeholder="Долгота">
+                                        <span asp-validation-for="CoordinatesLng" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4">
+                                    <div class="form-group">
+                                        <label class="form-label">Широта <span class="text-red">*</span></label>
+                                        <input asp-for="CoordinatesLat" type="text" class="form-control" placeholder="Широта">
+                                        <span asp-validation-for="CoordinatesLat" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="form-label">Вид метки <span class="text-red">*</span></label>
+                                        <select asp-for="MyPage.Layers" class="form-control form-select select2" data-bs-placeholder="Select">
+                                            <option label="Select"></option>
+                                            <option value="people">Люди</option>
+                                            <option value="places">Места</option>
+                                        </select>
+                                        <span asp-validation-for="MyPage.Layers" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-label" class="text-red">Краткое описание <span class="text-red">*</span></label>
+                                        <textarea asp-for="MyPage.MinDescription" class="form-control mb-12"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Описание <span class="text-red">*</span></label>
+                                        
+                                        <ejs-richtexteditor ejs-for="MyPage.Description" id="defaultRTE" showCharCount="true" actionComplete="actionCompleteHandler" created="created">
+                                            <e-richtexteditor-insertimagesettings maxWidth="auto"></e-richtexteditor-insertimagesettings>
+                                            <e-richtexteditor-toolbarsettings items="@ViewBag.items"></e-richtexteditor-toolbarsettings>
+                                            @*<e-richtexteditor-tablesettings styles="@ViewBag.styles"></e-richtexteditor-tablesettings>*@
+                                            <e-richtexteditor-filemanagersettings enable="true" path="/" ajaxSettings="@ViewBag.ajaxSettings"></e-richtexteditor-filemanagersettings>
+                                        </ejs-richtexteditor>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- End Row -->
+        </div>
+        <!-- CONTAINER CLOSED -->
+    </div>
+</div>
+<!--app-content closed-->
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

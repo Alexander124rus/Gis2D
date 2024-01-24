@@ -1,0 +1,317 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 86.56523, 67.469451 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Борис Васильевич Лавров 21.10.1886-28.07.1941</h3><p>Советский исследователь Арктики, организатор арктических экспедиций, один из руководителей Главсеморпути.</p><a href=\"Home/Mark/1\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.864223, 56.011922 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Акулинушкин Павел Дмитриевич</h3><p>Акулинушкин Павел Дмитриевич (1899 – 30.10.1937) – первый секретарь Красноярского краевого комитета ВКП(б). 30 октября 1937 г. за участие в антисоветской контрреволюционной организации был приговорен к расстрелу. Приговор в действие был приведен немедленно.</p><a href=\"Home/Mark/2\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 107.0314, 75.8988 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Отдельный лагерный пункт «Рыбак»</h3><p>ОЛП «Рыбак» в составе Норильского ИТЛ функционировал на полуострове Челюскин в 1951-1952 гг. </p><a href=\"Home/Mark/3\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 97.20687, 56.157632 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Красноярский ИТЛ (Краслаг)</h3><p>Красноярский ИТЛ (Краслаг). Время существования: 1938-1960 гг.\r\n</p><a href=\"Home/Mark/4\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 90.238878, 60.235415 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>СИБУЛОН (Сибирское управление лагерей особого назначения) </h3><p>Образован в 1929 г.  В 1935 г. переименован в Сиблаг. Лагуправление находилось в Новосибирске.</p><a href=\"Home/Mark/5\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 90.18889, 60.23542 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Олег Васильевич Волков </h3><p>Советский писатель, публицист, мемуарист, один из основоположников советского экологического движения.</p><a href=\"Home/Mark/6\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 84.32622, 65.97701 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Янов Стан. Лагерный пункт «Стройки №503». </h3><p>Янов Стан – посёлок и речная пристань в верхнем течении реки Турухан.  </p><a href=\"Home/Mark/7\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 84.30622, 65.97701 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Роберт Александрович Штильмарк </h3><p>Писатель, журналист.  Автор знаменитого романа «Наследник из Калькутты». </p><a href=\"Home/Mark/8\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 95.284986, 55.136901 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Тугачинский ИТЛ, посёлок Тугач</h3><p>Исправительно-трудовой лагерь входивший в состав Краслага. Действовал с 1938 по 1953 гг.</p><a href=\"Home/Mark/9\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.860387, 55.976524 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Перевалочный пункт Норильского ИТЛ НКВД в г. Красноярске.</h3><p>Действовал с 20 апреля 1936 года по 24 января 1956 года.</p><a href=\"Home/Mark/10\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.898465, 56.006521 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Крутский Борис Григорьевич</h3><p>Начальник Красноярского авиаремонтного завода</p><a href=\"Home/Mark/11\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.770146, 55.933466 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Яворский Александр Леопольдович</h3><p>Ученый-ботаник, краевед, коллекционер, преподаватель Красноярского педагогического института, сотрудник Музея Приенисейского края, первый директор государственного заповедника «Столбы».</p><a href=\"Home/Mark/12\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.998862, 56.017629 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>ИТЛ аффинажного завода №169</h3><p>Создан в июне 1941 г. Максимальная численность - 1813 человек.</p><a href=\"Home/Mark/13\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 93.065661, 56.021744 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>«Гранитный» ИТЛ и специальное управление строительства 505</h3><p>Исправительно-трудовой лагерь, специализировавшийся на железнодорожном строительстве.</p><a href=\"Home/Mark/14\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.839115, 56.019284 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Особое техническое бюро-1 (ОТБ-1).</h3><p>Научная организация, в которой работали заключенные специалисты, «шарашка» при Енисейстрое МВД СССР. </p><a href=\"Home/Mark/15\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.986331, 56.015475 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Субботин Александр Петрович.</h3><p>Начальник «Красмашстроя» в период с 1932 по 1937 гг.</p><a href=\"Home/Mark/16\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 93.03316, 56.041516 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Строительство Красноярского гидролизного завода</h3><p>(Управление Енисейского ИТЛ и колоний УНКВД Красноярского края).</p><a href=\"Home/Mark/17\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.844595, 56.013226 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Самуил Федорович Абоянцев (Абаянцев)</h3><p>Музыкальный деятель, руководитель губернского музыкального хора, Директор и преподаватель музыкального техникума Красноярска.</p><a href=\"Home/Mark/18\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.866909, 56.013034 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Александр Викторович Телегин </h3><p>Начальник судостроительного завода «Красмашстрой». 29 октября 1937 года расстрелян за «контрреволюционную агитацию».</p><a href=\"Home/Mark/19\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.890822, 56.011912 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Владимир Михайлович Крутовский</h3><p>Русский врач, публицист и общественный деятель Сибири, один из лидеров позднего сибирского областничества, губернский комиссар Енисейской губернии.</p><a href=\"Home/Mark/20\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.868849, 56.016169 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Вячеслав Петрович Косованов </h3><p>Библиограф, краевед, геолог, минеролог, столбист, автор крупнейшего краевого библиографического справочника — «Библиография Приенисейского края». </p><a href=\"Home/Mark/21\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.844325, 56.006442 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Георгий Ильич Трошин</h3><p>Музыкальный деятель г. Красноярска. Руководитель Великорусского оркестра при клубе \"Красный Октябрь\".</p><a href=\"Home/Mark/22\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 92.804988, 56.009356 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Дмитрий Борисович Красовский</h3><p>Орнитолог и зоолог Северного Кавказа и юга Восточной Сибири.</p><a href=\"Home/Mark/23\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-green",
+        "layers": "people",
+        "name_ru": "Люди"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 88.165875, 69.321766 ]
+      },
+      "properties": {
+        "description": "<div style=\"width: 300px; float: left;\"><h3>Норильлаг</h3><p>Норильский ИТЛ действовал с 25 июня 1935 года по 22 августа 1956 года. Максимальная численность заключенных, содержавшихся в Норильлаге, была зафиксирована 1 января 1951 года и составила 72 490 человек.</p><a href=\"Home/Mark/24\" target=\"_blank\">Подробнее</a></div>",
+        "image": "mapbox-marker-icon-red",
+        "layers": "places",
+        "name_ru": "Места"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<GeoMVC7.Domain.Entities.GeoEntitie.MyGeometry>
+@using Syncfusion.EJ2
+@using Syncfusion.EJ2.InPlaceEditor;
+@{
+    List<object> commands = new List<object>();
+    commands.Add(new { type = "edit", buttonOption = new { content = "Редактировать", iconCss = "e-icons e-edit", cssClass = "e-flat e-details" } });
+    commands.Add(new { type = "delete", buttonOption = new { content = "Удалить", iconCss = "e-icons e-delete", cssClass = "e-flat e-details" } });
+
+}
+<!--app-content open-->
+<div class="main-content app-content mt-0">
+    <div class="side-app">
+        <!-- CONTAINER -->
+        <div class="main-container container-fluid">
+            <!-- PAGE-HEADER -->
+            <div class="page-header">
+                <h1 class="page-title">Список данных</h1>
+            </div>
+            <!-- PAGE-HEADER END -->
+            <!-- Row -->
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Таблица меток</h3>
+                    </div>
+                    <div class="card-body">
+                        <a asp-action="Create"><button id="table2-new-row-button" class="btn btn-primary mb-4"> Добавить метку</button></a>
+                        <div class="row">
+                            <div class="control-section">
+                                <ejs-grid id="Grid" dataSource="@Model" commandClick="commandClick" allowPaging="true">
+                                    <e-grid-editSettings allowAdding="false" allowDeleting="false" allowEditing="false"></e-grid-editSettings>
+                                    <e-grid-columns>
+                                        <e-grid-column field="MyPage.Title" headerText="Заголовок" textAlign="Left" ></e-grid-column>
+                                        <e-grid-column field="MyPage.Layers" headerText="Тип слоя" textAlign="Center" ></e-grid-column>
+                                        <e-grid-column headerText="Выбрать действие" commands="commands"></e-grid-column>
+                                    </e-grid-columns>
+                                </ejs-grid>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- CONTAINER CLOSED -->
+    </div>
+</div>
+<!--app-content closed-->
+
+<script>
+    function commandClick(args) {
+        if (args.commandColumn.type == "edit") {
+            window.location.href = ("/Admin/Page/Edit/" + args.rowData.Id)
+        }
+        else {
+            window.location.href = ("/Admin/Page/Delete/" + args.rowData.Id)
+        }
+    }
+</script>

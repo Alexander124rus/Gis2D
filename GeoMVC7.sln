@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoMVC7", "GeoMVC7\GeoMVC7.csproj", "{DB9156B6-392B-42F8-A321-F1021B5A368A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9156B6-392B-42F8-A321-F1021B5A368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9156B6-392B-42F8-A321-F1021B5A368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9156B6-392B-42F8-A321-F1021B5A368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9156B6-392B-42F8-A321-F1021B5A368A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96A4EF7-C8B9-44F0-B3C1-2322E8E129D7}
+	EndGlobalSection
+EndGlobal
