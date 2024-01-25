@@ -1,5 +1,4 @@
 # Gis2D
-# BookChildrenWPF
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
